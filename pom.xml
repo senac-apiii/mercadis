@@ -72,6 +72,15 @@
 			<plugin>
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
+				<configuration>
+					<driver>com.mysql.jdbc.Driver</driver>
+					<url>jdbc:mysql://localhost:3306</url>
+					<user>root</user>
+					<password></password>
+					<schemas>
+						<schema>mercadis</schema>
+					</schemas>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
