@@ -13,7 +13,7 @@ import javax.validation.constraints.Positive;
 import javax.validation.constraints.PositiveOrZero;
 import java.util.Set;
 
-@Entity(name = "product")
+@Entity(name = "produto")
 public @Data class Produto {
 
     @Id
